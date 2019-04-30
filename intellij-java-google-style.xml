@@ -16,11 +16,11 @@
       </value>
     </option>
   </AndroidXmlCodeStyleSettings>
-  <JSCodeStyleSettings version="0">
+  <JSCodeStyleSettings version="1">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="FORCE_QUOTE_STYlE" value="true" />
-    <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
   </JSCodeStyleSettings>
   <JavaCodeStyleSettings>
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
