@@ -211,6 +211,9 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="Dart">
+    <option name="RIGHT_MARGIN" value="100" />
+  </codeStyleSettings>
   <codeStyleSettings language="ECMA Script Level 4">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
