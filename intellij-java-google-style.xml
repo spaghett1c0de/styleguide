@@ -57,21 +57,6 @@
     <option name="TABLE_CLOSING" value="3" />
     <option name="POST_OPT_WRAP_1" value="true" />
   </H2CodeStyleSettings>
-  <H2CodeStyleSettings version="6">
-    <option name="USE_GENERAL_STYLE" value="false" />
-    <option name="KEYWORD_CASE" value="2" />
-    <option name="TYPE_CASE" value="3" />
-    <option name="CUSTOM_TYPE_CASE" value="3" />
-    <option name="WITH_EL_COMMA" value="1" />
-    <option name="SELECT_ALIGN_AS" value="false" />
-    <option name="FROM_WRAP_ON" value="true" />
-    <option name="FROM_INDENT_JOIN" value="false" />
-    <option name="FROM_ONLY_JOIN_INDENT" value="1" />
-    <option name="TABLE_OPENING" value="1" />
-    <option name="TABLE_CONTENT" value="2" />
-    <option name="TABLE_CLOSING" value="3" />
-    <option name="POST_OPT_WRAP_1" value="true" />
-  </H2CodeStyleSettings>
   <HSQLCodeStyleSettings version="6">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
@@ -290,6 +275,10 @@
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
