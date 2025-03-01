@@ -8,7 +8,7 @@
   </option>
   <option name="RIGHT_MARGIN" value="100" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
-  <DB2CodeStyleSettings version="6">
+  <DB2CodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -25,7 +25,7 @@
     <option name="IMP_DECLARE_EL_WRAP" value="1" />
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
   </DB2CodeStyleSettings>
-  <DerbyCodeStyleSettings version="6">
+  <DerbyCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -42,7 +42,7 @@
     <option name="IMP_DECLARE_EL_WRAP" value="1" />
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
   </DerbyCodeStyleSettings>
-  <H2CodeStyleSettings version="6">
+  <H2CodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -57,7 +57,7 @@
     <option name="TABLE_CLOSING" value="3" />
     <option name="POST_OPT_WRAP_1" value="true" />
   </H2CodeStyleSettings>
-  <HSQLCodeStyleSettings version="6">
+  <HSQLCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -92,9 +92,11 @@
     </option>
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
-        <package name="" withSubpackages="true" static="true" />
+        <package name="" withSubpackages="true" static="false" module="true" />
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="" withSubpackages="true" static="true" />
       </value>
     </option>
     <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
@@ -104,7 +106,7 @@
     <option name="JD_KEEP_EMPTY_EXCEPTION" value="false" />
     <option name="JD_KEEP_EMPTY_RETURN" value="false" />
   </JavaCodeStyleSettings>
-  <MSSQLCodeStyleSettings version="6">
+  <MSSQLCodeStyleSettings version="7">
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
     <option name="CUSTOM_TYPE_CASE" value="3" />
@@ -121,7 +123,7 @@
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
     <option name="USE_GENERIC_STYLE" value="true" />
   </MSSQLCodeStyleSettings>
-  <MySQLCodeStyleSettings version="6">
+  <MySQLCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -136,7 +138,7 @@
     <option name="TABLE_CLOSING" value="3" />
     <option name="POST_OPT_WRAP_1" value="true" />
   </MySQLCodeStyleSettings>
-  <OracleCodeStyleSettings version="6">
+  <OracleCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -153,7 +155,7 @@
     <option name="IMP_DECLARE_EL_WRAP" value="1" />
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
   </OracleCodeStyleSettings>
-  <PostgresCodeStyleSettings version="6">
+  <PostgresCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -170,7 +172,10 @@
     <option name="IMP_DECLARE_EL_WRAP" value="1" />
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
   </PostgresCodeStyleSettings>
-  <SQLiteCodeStyleSettings version="6">
+  <Properties>
+    <option name="KEEP_BLANK_LINES" value="true" />
+  </Properties>
+  <SQLiteCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -185,12 +190,16 @@
     <option name="TABLE_CLOSING" value="3" />
     <option name="POST_OPT_WRAP_1" value="true" />
   </SQLiteCodeStyleSettings>
-  <SqlCodeStyleSettings version="6">
+  <SqlCodeStyleSettings version="7">
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
     <option name="CUSTOM_TYPE_CASE" value="3" />
+    <option name="SUBQUERY_OPENING" value="1" />
+    <option name="SUBQUERY_CONTENT" value="2" />
+    <option name="SUBQUERY_CLOSING" value="6" />
+    <option name="SUBQUERY_PAR_SPACE_BEFORE" value="1" />
     <option name="WITH_EL_COMMA" value="1" />
-    <option name="SELECT_ALIGN_AS" value="false" />
+    <option name="SELECT_USE_AS_WORD" value="1" />
     <option name="FROM_INDENT_JOIN" value="false" />
     <option name="FROM_ONLY_JOIN_INDENT" value="1" />
     <option name="TABLE_OPENING" value="1" />
@@ -200,7 +209,7 @@
     <option name="IMP_DECLARE_EL_WRAP" value="1" />
     <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
   </SqlCodeStyleSettings>
-  <SybaseCodeStyleSettings version="6">
+  <SybaseCodeStyleSettings version="7">
     <option name="USE_GENERAL_STYLE" value="false" />
     <option name="KEYWORD_CASE" value="2" />
     <option name="TYPE_CASE" value="3" />
@@ -221,8 +230,12 @@
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </TypeScriptCodeStyleSettings>
   <XML>
+    <option name="XML_TEXT_WRAP" value="0" />
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
   </XML>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
   <codeStyleSettings language="CSS">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -275,10 +288,6 @@
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="TERNARY_OPERATION_WRAP" value="1" />
     <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
-    <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_LAMBDAS_IN_ONE_LINE" value="true" />
-    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="WRAP_COMMENTS" value="true" />
@@ -354,10 +363,8 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="Python">
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="RIGHT_MARGIN" value="80" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
